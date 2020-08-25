@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  root 'data#index'
   get 'data/index'
   get 'data/ajax'
   get 'hello/index'
